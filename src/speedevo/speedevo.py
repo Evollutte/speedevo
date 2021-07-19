@@ -7,8 +7,8 @@ class Speedevo:
 	__slots__ = ['servers', 'threads', 'speed', 'path']
 
 	def __init__(self):
-		self.servers = [16438]  # Local do servidor
-		self.threads = 16  # Quantidade de threads que vai ser utilizada
+		self.servers = [16438]  	# Local do servidor
+		self.threads = 16  			# Quantidade de threads que vai ser utilizada
 		self.speed = Speedtest()
 		self.path = None
 
